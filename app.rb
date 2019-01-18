@@ -1,4 +1,4 @@
-require_relative 'config/environment'
+# require_relative 'config/environment'
 
 class App < Sinatra::Base
 
@@ -13,5 +13,5 @@ class App < Sinatra::Base
   get '/favorite-song' do
     "My favorite song is ___"
   end
-  
+
 end
